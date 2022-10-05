@@ -1,0 +1,12 @@
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\refint\EntityLayer.dll
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\hemre\Desktop\Blog\CoreDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
