@@ -1,6 +1,7 @@
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -9,9 +10,11 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace CoreDemo
@@ -52,11 +55,25 @@ namespace CoreDemo
             });
             services.ConfigureApplicationCookie(options =>
             {
-                options.Cookie.HttpOnly= true;
-                options.ExpireTimeSpan=TimeSpan.FromMinutes(100);
+              //  options.Cookie.HttpOnly = true;
+                //options.ExpireTimeSpan = TimeSpan.FromMinutes(100);
                 options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Login/AccessDenied/");
                 options.LoginPath = "/Login/Index";
-                options.SlidingExpiration = true;
+                //options.SlidingExpiration = true;
+            });
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x =>
+            {
+               
+                x.RequireHttpsMetadata = false;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidIssuer = "http://localhost",
+                    ValidAudience = "http://localhost",
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("blogsitesijwtbaglama")),
+                    ValidateIssuerSigningKey = true,
+                    ValidateLifetime = true,
+                    ClockSkew = TimeSpan.Zero
+                };
             });
         }
 

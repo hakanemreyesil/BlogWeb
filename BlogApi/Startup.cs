@@ -85,6 +85,7 @@ namespace BlogApi
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }

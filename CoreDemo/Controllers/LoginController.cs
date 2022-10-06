@@ -36,6 +36,7 @@ namespace CoreDemo.Controllers
                 var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false,true);
                 if (result.Succeeded)
                 {
+                    Created("", new CoreDemo.BuildToken.BuildToken().CreateToken());
                     return RedirectToAction("Index", "Dashboard");
                 }
                 else

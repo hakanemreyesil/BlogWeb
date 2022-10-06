@@ -25,14 +25,14 @@ namespace BlogApi.Controllers
                 var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
                 if (result.Succeeded)
                 {
-                    return Ok(result);
+                    return Created("", new BlogApi.BuildToken.BuildToken().CreateToken());
                 }
                 else
                 {
                     return BadRequest();
                 }
             }
-            return Ok(p);
+            return Ok();
         }
     }
 }

@@ -2,6 +2,7 @@
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -25,7 +26,9 @@ namespace BlogApi.Controllers
         //    _blogManager = blogManager;
             
         //}
+
         [HttpGet]
+        [Authorize]
         public IActionResult ListBlog()
         {
             var values = _blogManager.GetList();

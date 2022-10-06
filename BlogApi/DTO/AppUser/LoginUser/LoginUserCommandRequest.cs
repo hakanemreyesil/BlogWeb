@@ -1,8 +1,10 @@
-﻿namespace BlogApi.DTO.AppUser.LoginUser
+﻿using MediatR;
+
+namespace BlogApi.DTO.AppUser.LoginUser
 {
-    public class LoginUserCommandRequest
+    public class LoginUserCommandRequest : IRequest<LoginUserCommandResponse>
     {
-        public string UsernameorEmail { get; set; }
-        public string Password { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }
