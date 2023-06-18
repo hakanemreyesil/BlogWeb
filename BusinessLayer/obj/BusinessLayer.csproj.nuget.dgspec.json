@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj": {}
+    "D:\\Repos\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Repos\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Repos\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\Repos\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\hemre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\Repos\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hemre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj"
+              "D:\\Repos\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\Repos\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+              "D:\\Repos\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\Repos\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -72,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\Repos\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Repos\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "D:\\Repos\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\hemre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\DataAccessLayer\\obj\\",
+        "outputPath": "D:\\Repos\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hemre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,8 +100,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj"
+              "D:\\Repos\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\Repos\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -143,6 +143,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -161,18 +165,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+    "D:\\Repos\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "D:\\Repos\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "D:\\Repos\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\hemre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\obj\\",
+        "outputPath": "D:\\Repos\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hemre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

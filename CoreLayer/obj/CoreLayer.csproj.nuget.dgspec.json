@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreLayer\\CoreLayer.csproj": {}
+    "D:\\Repos\\CoreLayer\\CoreLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreLayer\\CoreLayer.csproj": {
+    "D:\\Repos\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "D:\\Repos\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "D:\\Repos\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\hemre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreLayer\\obj\\",
+        "outputPath": "D:\\Repos\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hemre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

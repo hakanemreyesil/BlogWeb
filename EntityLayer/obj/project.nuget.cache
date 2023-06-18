@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "20/lGdBu7YEl3adzn/orJbtkwIvII3z7ggfoqF3PzeYP8bc1L9OhNh1NHOCEAiAVr9hPVjqnlKlZdKKoneXhTQ==",
+  "dgSpecHash": "0gaFDvziHlsTLfPaDpeKbTfsiZZ7QWn16LchM0CdIf+QTkWK2kZOvyvI3KKmr83zSSzR7blJyJblRzIbyNoj7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "D:\\Repos\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hemre\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

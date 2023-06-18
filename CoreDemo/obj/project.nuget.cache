@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WA7prGNxDvOcj6zrsp3gZPdVkOstAhQ1ErlXmdyI4hCUzrEpD4upEBgkJ6o9/oyvUl6kjdhIdLPOaGCm4kWSqw==",
+  "dgSpecHash": "Tp1w6NA0b2tUGrXs7jsalbHa6BtVwsAHD2Murxshl/VATF3bojrKDvOgDZyzEo0W+pD9Uz/brnCnQGo17fM/vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\CoreDemo\\CoreDemo.csproj",
+  "projectFilePath": "D:\\Repos\\CoreDemo\\CoreDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hemre\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
@@ -87,6 +87,8 @@
     "C:\\Users\\hemre\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\hemre\\.nuget\\packages\\npgsql\\5.0.0\\npgsql.5.0.0.nupkg.sha512",
+    "C:\\Users\\hemre\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.0\\npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\hemre\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

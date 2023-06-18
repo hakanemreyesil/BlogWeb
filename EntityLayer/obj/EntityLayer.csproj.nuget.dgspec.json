@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {}
+    "D:\\Repos\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj": {
+    "D:\\Repos\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "D:\\Repos\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "D:\\Repos\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\hemre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hemre\\Desktop\\Blog\\CoreDemo\\EntityLayer\\obj\\",
+        "outputPath": "D:\\Repos\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hemre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

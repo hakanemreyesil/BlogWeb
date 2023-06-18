@@ -10,3 +10,15 @@ C:\Users\hemre\Desktop\Blog\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 C:\Users\hemre\Desktop\Blog\CoreDemo\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
 C:\Users\hemre\Desktop\Blog\CoreDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
 C:\Users\hemre\Desktop\Blog\CoreDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+D:\Repos\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+D:\Repos\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+D:\Repos\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+D:\Repos\CoreLayer\obj\Debug\net5.0\refint\CoreLayer.dll
+D:\Repos\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+D:\Repos\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll

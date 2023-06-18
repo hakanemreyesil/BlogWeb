@@ -14,7 +14,8 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=HAKAN\\SQLEXPRESS; database=CoreBlogDb; integrated security=true;");
+            //optionsBuilder.UseSqlServer("server=HAKAN\\SQLEXPRESS; database=CoreBlogDb; integrated security=true;");
+            optionsBuilder.UseNpgsql("User ID=postgres;Password=123456;Server=localhost;Port=5432;Database=CoreBlogDb;Integrated Security=true;Pooling=true;");
             
         }
         protected override void OnModelCreating(ModelBuilder builder)
