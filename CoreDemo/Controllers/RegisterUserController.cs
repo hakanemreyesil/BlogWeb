@@ -29,7 +29,13 @@ namespace CoreDemo.Controllers
             WriterManager wm = new WriterManager(new EfWriterRepository());
 
             if (ModelState.IsValid)
-            {       
+            {
+                Writer w = new Writer();
+                w.WriterMail = p.Mail;
+                w.WriterName = p.NameSurname;
+                w.WriterPassword = p.Password;         
+                w.WriterStatus = true;         
+                wm.TAdd(w);
                 AppUser user = new AppUser()
                 {
                     Email = p.Mail,
